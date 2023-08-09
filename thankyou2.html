@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Mono&family=Work+Sans&display=swap" rel="stylesheet">
+  <title>Thank you!</title>
+  <style type="text/css">
+        
+  body {
+      background-color: #f9f9f9;
+      color: #333;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      color: #000;
+      font-family: 'Work Sans';
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .emoji {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+    .header{
+      height: 100vh;
+      overflow: hidden;
+    }
+    html{
+      overflow: hidden;
+    }
+    --
+    body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 10px;
+}
+
+.confetti-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* for text  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confetti {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.confetti span {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 1.5vw;
+  height: 1vw;
+  background: #FFF;
+}
+
+/* add animation */
+.confetti span:nth-child(2n+1) {
+  animation: confetti-anim-1 10s 0s linear infinite;
+}
+
+.confetti span:nth-child(2n+2) {
+  animation: confetti-anim-2 10s 0s linear infinite;
+}
+
+/* side position */
+.confetti span:nth-child(1) {
+  left: 0%;
+}
+
+.confetti span:nth-child(2) {
+  left: 2%;
+}
+
+.confetti span:nth-child(3) {
+  left: 4%;
+}
+
+.confetti span:nth-child(4) {
+  left: 6%;
+}
+
+.confetti span:nth-child(5) {
+  left: 8%;
+}
+
+.confetti span:nth-child(6) {
+  left: 10%;
+}
+
+.confetti span:nth-child(7) {
+  left: 12%;
+}
+
+.confetti span:nth-child(8) {
+  left: 14%;
+}
+
+.confetti span:nth-child(9) {
+  left: 16%;
+}
+
+.confetti span:nth-child(10) {
+  left: 18%;
+}
+
+.confetti span:nth-child(11) {
+  left: 20%;
+}
+
+.confetti span:nth-child(12) {
+  left: 22%;
+}
+
+.confetti span:nth-child(13) {
+  left: 24%;
+}
+
+.confetti span:nth-child(14) {
+  left: 26%;
+}
+
+.confetti span:nth-child(15) {
+  left: 28%;
+}
+
+.confetti span:nth-child(16) {
+  left: 30%;
+}
+
+.confetti span:nth-child(17) {
+  left: 32%;
+}
+
+.confetti span:nth-child(18) {
+  left: 34%;
+}
+
+.confetti span:nth-child(19) {
+  left: 36%;
+}
+
+.confetti span:nth-child(20) {
+  left: 38%;
+}
+
+.confetti span:nth-child(21) {
+  left: 40%;
+}
+
+.confetti span:nth-child(22) {
+  left: 42%;
+}
+
+.confetti span:nth-child(23) {
+  left: 44%;
+}
+
+.confetti span:nth-child(24) {
+  left: 46%;
+}
+
+.confetti span:nth-child(25) {
+  left: 48%;
+}
+
+.confetti span:nth-child(26) {
+  left: 50%;
+}
+
+.confetti span:nth-child(27) {
+  left: 52%;
+}
+
+.confetti span:nth-child(28) {
+  left: 54%;
+}
+
+.confetti span:nth-child(29) {
+  left: 56%;
+}
+
+.confetti span:nth-child(30) {
+  left: 58%;
+}
+
+.confetti span:nth-child(31) {
+  left: 60%;
+}
+
+.confetti span:nth-child(32) {
+  left: 62%;
+}
+
+.confetti span:nth-child(33) {
+  left: 64%;
+}
+
+.confetti span:nth-child(34) {
+  left: 66%;
+}
+
+.confetti span:nth-child(35) {
+  left: 68%;
+}
+
+.confetti span:nth-child(36) {
+  left: 70%;
+}
+
+.confetti span:nth-child(37) {
+  left: 72%;
+}
+
+.confetti span:nth-child(38) {
+  left: 74%;
+}
+
+.confetti span:nth-child(39) {
+  left: 76%;
+}
+
+.confetti span:nth-child(40) {
+  left: 78%;
+}
+
+.confetti span:nth-child(41) {
+  left: 80%;
+}
+
+.confetti span:nth-child(42) {
+  left: 82%;
+}
+
+.confetti span:nth-child(43) {
+  left: 84%;
+}
+
+.confetti span:nth-child(44) {
+  left: 86%;
+}
+
+.confetti span:nth-child(45) {
+  left: 88%;
+}
+
+.confetti span:nth-child(46) {
+  left: 90%;
+}
+
+.confetti span:nth-child(47) {
+  left: 92%;
+}
+
+.confetti span:nth-child(48) {
+  left: 94%;
+}
+
+.confetti span:nth-child(49) {
+  left: 96%;
+}
+
+.confetti span:nth-child(50) {
+  left: 98%;
+}
+
+/* size */
+.confetti span:nth-child(3n+1) {
+  width: 1vw;
+  height: 0.6vw;
+}
+
+.confetti span:nth-child(3n+2) {
+  width: 1.25vw;
+  height: 0.8vw;
+}
+
+.confetti span:nth-child(3n+3) {
+  width: 1.5vw;
+  height: 1vw;
+}
+
+/* colors */
+.confetti span:nth-child(5n+1) {
+  background: red;
+}
+
+.confetti span:nth-child(5n+2) {
+  background: blue;
+}
+
+.confetti span:nth-child(5n+3) {
+  background: green;
+}
+
+.confetti span:nth-child(5n+4) {
+  background: pink;
+}
+
+.confetti span:nth-child(5n+5) {
+  background: yellow;
+}
+
+
+/* animation-duration */
+.confetti span:nth-child(4n+1) {
+  animation-duration: 5s;
+}
+
+.confetti span:nth-child(4n+2) {
+  animation-duration: 12s;
+}
+
+.confetti span:nth-child(4n+3) {
+  animation-duration: 8s;
+}
+
+.confetti span:nth-child(4n+4) {
+  animation-duration: 6s;
+}
+
+
+/* animation-delay */
+.confetti span:nth-child(11n+1) {
+  animation-delay: 0s;
+}
+
+.confetti span:nth-child(11n+2) {
+  animation-delay: 9s;
+}
+
+.confetti span:nth-child(11n+3) {
+  animation-delay: 2s;
+}
+
+.confetti span:nth-child(11n+4) {
+  animation-delay: 5s;
+}
+
+.confetti span:nth-child(11n+5) {
+  animation-delay: 6s;
+}
+
+.confetti span:nth-child(11n+6) {
+  animation-delay: 7s;
+}
+
+.confetti span:nth-child(11n+7) {
+  animation-delay: 3s;
+}
+
+.confetti span:nth-child(11n+8) {
+  animation-delay: 1s;
+}
+
+.confetti span:nth-child(11n+9) {
+  animation-delay: 2s;
+}
+
+.confetti span:nth-child(11n+10) {
+  animation-delay: 11s;
+}
+
+.confetti span:nth-child(11n+11) {
+  animation-delay: 10s;
+}
+
+/* animation */
+@keyframes confetti-anim-1 {
+  0% {
+    top: -10%;
+    transform: translateX(0) rotateX(0) rotateY(0);
+  }
+
+  100% {
+    top: 100%;
+    transform: translateX(20vw) rotateX(180deg) rotateY(360deg);
+  }
+}
+
+@keyframes confetti-anim-2 {
+  0% {
+    top: -10%;
+    transform: translateX(0) rotateX(0) rotateY(0);
+  }
+
+  100% {
+    top: 100%;
+    transform: translateX(-20vw) rotateX(180deg) rotateY(360deg);
+  }
+}
+
+/* text */
+.confetti-container p {
+  position: absolute;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.confetti-container{
+  height: 100vh;
+  z-index: 998;
+}
+
+.container{
+  position: absolute;
+}
+
+@media only screen and (max-width: 740px){
+
+  .container .emoji{
+    font-size: 50px;
+  }
+  .container h1{
+    font-size: 25px;
+  }
+  .container p{
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 630px){
+
+  .container h1{
+    font-size: 23px;
+  }
+  .container p{
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .container{
+    margin: 0 20px;
+    padding: 20px;
+  }
+  .container .emoji{
+    margin-bottom: 0;
+  }
+
+}
+
+  </style>
+</head>
+<body class="body">
+<header class="header">
+  <div class="confetti-container">
+  <div class="confetti"><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  </div> 
+  <div class="container">
+      <div class="emoji">🎉</div>
+      <h1>Thank You!</h1>
+      <p>Thanks for reaching out. I'll get back to you as soon as possible.</p>
+      <a class="button" href="https://jaimeegn.github.io/" style="cursor: pointer; z-index: 10000; position: relative;">Go Back to Homepage</a>
+  </div>
+</header>
+  <script>
+   // Redirect to homepage after 5 seconds
+    setTimeout(function () {
+      window.location.href = "/";
+    }, 5000);
+  </script>
+
+</body>
+</html>

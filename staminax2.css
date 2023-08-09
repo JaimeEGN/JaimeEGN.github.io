@@ -1,0 +1,12 @@
+
+@media only screen and (max-width: 500px){
+
+  .class-details p,.class-details a{
+    font-size: 25px !important;
+  }
+
+  .class-details h3{
+    font-size: 35px !important;
+  }
+
+}
